@@ -1,0 +1,42 @@
+<!-- Learning about creating forms and use of input tags -->
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and input tags</title>
+    
+  </head>
+  <body>
+    <p>This is the forms in HTML</p>
+    <form action="backend.php">
+        <div>
+            FirstName:<input type="text" name="FirstName">
+            LastName: <input type="text" name="LastName">
+        </div>
+        <br>
+        <div>
+            Your Email:<input type="email" name="EmailAddress">
+        </div>
+        <br>
+        <div>
+            Create a password:<input type="password" name="NewPassword">
+        </div>
+        <br>
+        <div>
+            Enter your birthdate:<input type="date" name="DateOfBirth">
+        </div>
+        <br>
+        <div>
+            Gender: <br> Male <input type="radio" name="YourGender"> Female <input type="radio" name="YourGender" > Others <input type="radio" name="YourGender">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SignIn">
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+    </form>
+  </body>
+</html>
